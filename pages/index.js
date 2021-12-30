@@ -16,50 +16,43 @@ import SEO from "../components/SEO";
 
 export default function Home({ githubProfileData }) {
 	return (
-		<div>
-			<SEO
-				data={{
-					title: "Hanzla Tauqeer",
-					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
-					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
-						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
-						"web developer",
-						"full stack",
-						"full stack web developer",
-						"mobile app developer",
-						"android developer",
-						"django",
-						"flask",
-						"django rest framework",
-						"nodejs ",
-						"expressjs",
-						"reactjs ",
-						"contextapi",
-						"redux",
-						"flutter",
-					],
-				}}
-			/>
-			<Navigation />
-			<Greetings />
-			<Skills />
-			<Proficiency />
-			<Education />
-			<Experience />
-			<Feedbacks />
-			<Projects />
-			<GithubProfileCard prof={githubProfileData} />
-		</div>
-	);
+    <div>
+      <SEO
+        data={{
+          title: "Ruhul Amin",
+          description:
+            "Full stack developer now learning blockchain technology",
+          image:
+            "https://raw.githubusercontent.com/ruhulaminjr/Website-Images/main/new%20ruhul.png",
+          url: "https://developer-portfolio-1hanzla100.vercel.app",
+          keywords: [
+            "Ruhul Amin jr",
+            "Portfolio",
+            "Ruhul Amin Portfolio ",
+            "Ruhul Amin Portfolio",
+            "web developer",
+            "full stack",
+            "full stack web developer",
+            "mobile app developer",
+            "nodejs ",
+            "expressjs",
+            "reactjs ",
+            "contextapi",
+            "redux",
+          ],
+        }}
+      />
+      <Navigation />
+      <Greetings />
+      <Skills />
+      <Proficiency />
+      <Education />
+      <Experience />
+      <Feedbacks />
+      <Projects />
+      <GithubProfileCard prof={githubProfileData} />
+    </div>
+  );
 }
 
 Home.prototype = {
