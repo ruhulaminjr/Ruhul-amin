@@ -46,9 +46,9 @@ export default function Home({ githubProfileData }) {
       <Greetings />
       <Skills />
       <Proficiency />
-      <Education />
-      <Experience />
-      <Feedbacks />
+      {/* <Education />
+      <Experience /> */}
+      {/* <Feedbacks /> */}
       <Projects />
       <GithubProfileCard prof={githubProfileData} />
     </div>
