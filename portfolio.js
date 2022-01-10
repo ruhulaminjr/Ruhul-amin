@@ -64,7 +64,7 @@ export const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "logos:nodejs-icon",
     },
-    
+
     {
       skillName: "npm",
       fontAwesomeClassname: "vscode-icons:file-type-npm",
@@ -173,15 +173,16 @@ export const projects = [
     github: "https://github.com/ruhulaminjr/Sunglass-website-Client",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
+    name: "Gamebox Gaming Website",
+    desc: "This is a Gaming Website Build With Mern Stack and Redux Toolkit.You Can search any games and play games trailer and see games screenshot et.",
+    link: "https://game-boox.web.app/",
+    github: "https://github.com/ruhulaminjr/Game-Box-Website",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
-    link: "https://example.com",
+    name: "Medical Health Care Webiste",
+    desc: "Health Services Website Build With React Tailwind Css , This website also has firebase Authentication System And Form Validation With Hook Form",
+    github: "https://github.com/ruhulaminjr/Meddical-Heatlcare-Website",
+    link: "https://meddical-c1cd1.web.app/",
   },
 ];
 
